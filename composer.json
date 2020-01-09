@@ -1,0 +1,26 @@
+{
+    "name": "bzilee/laravel-dbexport",
+    "description": "A package that manages the export of data from a table in any format",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "B.zile Tankeu",
+            "email": "b.ziletankeu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bzilee\\laravel-dbexport\\LaraDBExportServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bzilee\\LaraDBExport\\": "src/"
+        }
+    }
+}
